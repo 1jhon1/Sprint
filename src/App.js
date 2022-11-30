@@ -1,23 +1,28 @@
-import logo from './logo.svg';
+import Navbar from './Componentes/nav';
+import ContenidoP from './Componentes/contenidoP';
+import Footer from './Componentes/footer';
+
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+   
+      <Navbar/>
+      <ContenidoP
+      titulo1='Información de los paguetes'
+      titulo2='Servicio'
+      titulo3='Quienes somos'
+      titulo4='Contactanos'
+      texto1='Te brindamos el mejor servicio para tus envios.'
+      texto3='Con mas 10 años en el mercado, haciendo felices a nuestros clientes.'
+      texto4='Siguenos en nuestras redes sociales o manda tus datos a nuestros correos.'
+      />
+     
+
+      
+      <Footer/>
+      
     </div>
   );
 }
