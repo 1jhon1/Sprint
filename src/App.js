@@ -1,6 +1,10 @@
 import Navbar from './Componentes/nav';
 import ContenidoP from './Componentes/contenidoP';
 import Footer from './Componentes/footer';
+import ListaOrden from './Componentes/listaOrden';
+
+
+
 
 import './App.css';
 
@@ -18,8 +22,8 @@ function App() {
       texto3='Con mas 10 años en el mercado, haciendo felices a nuestros clientes.'
       texto4='Siguenos en nuestras redes sociales o manda tus datos a nuestros correos.'
       />
-     
-
+    
+    <ListaOrden/>
       
       <Footer/>
       

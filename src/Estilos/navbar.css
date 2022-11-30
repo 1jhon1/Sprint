@@ -40,4 +40,15 @@ border-radius: 5%;
             color: #8e9195;
         
     }
+    .negro{
+        color: black;
+    }
+    .edit{
+        color: blue;
+        font-size: 20px;
+    }
+    .delete{
+        color: red;
+        font-size: 20px;
+    }
 
